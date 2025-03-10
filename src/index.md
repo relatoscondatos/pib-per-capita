@@ -113,13 +113,13 @@ const fuenteWB = `Fuente: Datos de cuentas nacionales del Banco Mundial y archiv
 
 # PIB (Producto Interno Bruto)
 
-El PIB (Producto Interno Bruto) es una medida que nos ayuda a entender cuánto produce en total un país en un período de tiempo, generalmente un año. Imagina que sumamos el valor de todos los productos y servicios que se crean dentro de un país, como si estuviéramos calculando el precio total de todo lo que se fabrica y se vende en las tiendas, se produce en las fábricas, se cultiva en los campos, y se ofrecen como servicios, desde la educación hasta el transporte.
+El PIB (Producto Interno Bruto) mide el valor total de bienes y servicios producidos en un país durante un año. Imagina que sumamos el valor de todos los productos y servicios que se crean dentro de un país, como si estuviéramos calculando el precio total de todo lo que se fabrica y se vende en las tiendas, se produce en las fábricas, se cultiva en los campos, y se ofrecen como servicios, desde la educación hasta el transporte.
 
 Además, al calcular el PIB, también añadimos los impuestos que pagamos por esos productos y servicios, y restamos los subsidios que el gobierno puede dar para abaratar algunos productos. Este cálculo no incluye el desgaste de las máquinas ni la pérdida de recursos naturales, proporcionando así una visión general del valor total generado en la economía.
 
 Esta cifra es importante porque nos da una idea del tamaño de la economía y de cómo está creciendo o disminuyendo en comparación con otros años o con otros países.
 
-Según definifión del Banco Mundial:
+Según la definición del Banco Mundial:
 *"El PIB a precio de comprador es la suma del valor agregado bruto de todos los productores residentes en la economía más todo impuesto a los productos, menos todo subsidio no incluido en el valor de los productos. Se calcula sin hacer deducciones por depreciación de bienes manufacturados o por agotamiento y degradación de recursos naturales."*
 ## PIB en Chile ($ Pesos chilenos nominales)
 A continuación, presentamos un gráfico que muestra el Producto Interno Bruto (PIB) de Chile desde 1960 hasta 2023, expresado en pesos nominales. Es importante destacar que estas cifras no han sido ajustadas por la inflación, lo que significa que reflejan el total de la economía en los precios de cada año. Esto implica que no se consideran los cambios en el poder adquisitivo del dinero con el tiempo. Por ejemplo, un peso en 1960 no tiene el mismo valor que un peso en 2023, lo que explica el aumento visible en el gráfico.
@@ -599,7 +599,7 @@ Este gráfico es un claro ejemplo de cómo las políticas económicas, la estabi
 
 
 ```js
-const paisSeleccionado = view(Inputs.select(cases, {label: "País", format: x => x.label, value:cases[0]}));
+const paisSeleccionado = view(Inputs.select(cases, {label: "Selecciona un país", format: x => x.label, value:cases[0]}));
 ```
 
 ```js
